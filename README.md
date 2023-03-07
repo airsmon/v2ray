@@ -216,14 +216,13 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "hk-02", server: 43.134.193.193, port: 443, type: vmess, uuid: dc524cb0-014b-4ed6-ab89-aef90ea72b60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /5uY8Q1Ka, ws-headers: {Host: hk-02.fetchow.cn}}
-  - {name: "trojan", server: 43.134.208.84, port: 80, type: trojan, password: QBBB4UdpS83adXMZ, sni: libray02.fetchow.cn, alpn: ["h2", "http/1.1"]}
+  - {name: "hk-02", server: , port: 443, type: vmess, uuid: , alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: , ws-headers: {Host: }}
+  - {name: "trojan", server: , port: 80, type: trojan, password: , sni: , alpn: ["h2", "http/1.1"]}
 dns:
   enable: false
   ipv6: false
   listen: 127.0.0.1:53
   default-nameserver:
-    - 192.168.1.29
     - 8.8.8.8
   nameserver:
     - https://dns.alidns.com/dns-query
