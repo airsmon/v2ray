@@ -4,7 +4,7 @@
 
 # 客户端
 mac os client：
-● https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public
-● https://github.com/yichengchen/clashX/releases
+* https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public
+* https://github.com/yichengchen/clashX/releases
 windows client：
-● https://github.com/Dreamacro/clash/releases
+* https://github.com/Dreamacro/clash/releases
