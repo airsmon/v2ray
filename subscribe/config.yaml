@@ -11,9 +11,6 @@ dns:
   ipv6: false
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
-  fake-ip-filter:
-    - '*.daocloud.*'
-    - '*.ats.*'
   default-nameserver:
     - 119.29.29.29
     - 223.5.5.5
@@ -21,8 +18,6 @@ dns:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
   fallback:
-    - 10.64.46.101
-    - 10.64.46.102
     - https://dns.google/dns-query
 proxy-groups:
   - name: Proxy
